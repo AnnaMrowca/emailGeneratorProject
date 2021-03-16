@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
+
 <head>
     <title>home</title>
 
@@ -12,5 +11,37 @@
 </head>
 <body>
 <h1>E-mail Generator</h1>
+
+<form action="{% url 'email' %}" method="POST">
+
+    <select required name = 'domain'>
+        <option value = ""selected disabled>E-mail Domain</option>
+            <option value = "Gmail">Gmail</option>
+            <option value = "Proton">Proton</option>
+            <option value = "Yahoo">Yahoo</option>
+    </select>
+
+    <select required name = "length">
+        <option value = ""selected disabled>Length</option>
+        <option value = "5">5 letters</option>
+        <option value = "6">6 letters</option>
+        <option value = "7">7 letters</option>
+        <option value = "8">8 letters</option>
+        <option value = "9">9 letters</option>
+        <option value = "10">10 letters</option>
+        <option value = "11">11 letters</option>
+        <option value = "12">12 letters</option>
+        <option value = "13">13 letters</option>
+        <option value = "14">14 letters</option>
+        <option value = "15">15 letters</option>
+    </select>
+
+    <label for="numbers">Numbers</label>
+    <input type = "checkbox" name="numbers" id="numbers">
+
+    {% csrf_token %}
+    <button type = "submit">Generate E-mail</button>
+
+</form>
 </body>
 </html>

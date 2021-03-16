@@ -19,4 +19,5 @@ from generator import views
 
 urlpatterns = [
     path('', views.home, name='home'),
+    path('email', views.email, name='email'),
 ]
