@@ -10,7 +10,10 @@
 
 </head>
 <body>
-<h1>E-mail Generator</h1>
+
+<div class="buttons">
+<h1 class="text_layout">E-mail Generator</h1>
+
 
 <form action="{% url 'email' %}" method="POST">
 
@@ -42,6 +45,10 @@
     {% csrf_token %}
     <button type = "submit">Generate E-mail</button>
 
+
+
 </form>
+
+    </div>
 </body>
 </html>

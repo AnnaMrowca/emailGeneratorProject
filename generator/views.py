@@ -9,7 +9,7 @@ def home(request):
 def email(request):
 
     email_length = int(request.POST.get('length'))
-    email_provider = str(request.POST.get('domain'))
+    email_provider = request.POST.get('domain')
 
     numbers = string.digits
     letters = string.ascii_letters

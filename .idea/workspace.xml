@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b9deb6ef-edc3-4973-83ab-3c127603da63" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailGenerator/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/emailGenerator/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generator/static/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/generator/static/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/generator/templates/generator/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/generator/templates/generator/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/generator/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/generator/views.py" afterDir="false" />
     </list>
