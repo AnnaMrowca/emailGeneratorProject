@@ -5,6 +5,9 @@ import string
 def home(request):
     return render(request, 'generator/home.html')
 
+def aboutPage(request):
+    return render(request, 'generator/about.html')
+
 
 def email(request):
 

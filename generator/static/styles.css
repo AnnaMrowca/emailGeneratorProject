@@ -18,7 +18,23 @@ label,
 input,
 button {
     display: block;
-    margin: 0 auto;
+    border: 2px;
+    font-size: 18px;
     text-align: center;
-
+    margin: 12px auto;
+    border-radius: 5px;
+    padding: 4px;
 }
+
+.package {
+    padding: 50px;
+}
+
+.generate {
+    background-color: white;
+    border: 2px solid #008CBA;
+    border-radius: 5px;
+    width: fit-content;
+    margin: 0 auto;
+}
+
