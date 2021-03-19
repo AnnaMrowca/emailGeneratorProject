@@ -13,7 +13,7 @@
 <body>
 
 <div class="package">
-<h1 class="text_layout">E-mail Generator</h1>
+<h1>E-mail Generator</h1>
 
 
 <form action="{% url 'email' %}" method="POST">
@@ -40,15 +40,15 @@
         <option value = "15">15 letters</option>
     </select>
 
-    <label for="numbers">Numbers</label>
-    <input type = "checkbox" name="numbers" id="numbers">
+    <p class="numbers_button"><label for="numbers">Numbers</label></p>
+    <p class="numbers_button"><input type = "checkbox" name="numbers" id="numbers"></p>
 
     {% csrf_token %}
     <p class="generate"><button type = "submit">Generate E-mail</button></p>
 
 </form>
 
- <button type = "About Page"><a href="{% url 'about' %}">About Page</a></button>
+ <p class="about_button"><button type="About Page"><a href="{% url 'about' %}">About Page</a></button></p>
 
     </div>
 </body>
