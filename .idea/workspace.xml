@@ -4,6 +4,8 @@
     <list default="true" id="b9deb6ef-edc3-4973-83ab-3c127603da63" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/generator/static/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/generator/static/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generator/templates/generator/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/generator/templates/generator/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generator/templates/generator/email.html" beforeDir="false" afterPath="$PROJECT_DIR$/generator/templates/generator/email.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/generator/templates/generator/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/generator/templates/generator/home.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

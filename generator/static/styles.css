@@ -15,24 +15,44 @@ html {
     text-align: center
 }
 
-.generate {
-    background-color: white;
-    width: fit-content;
-    margin: 0 auto;
-
-}
-
 .numbers_button {
-    margin: 10px auto;
     display: inline-block;
+
 }
 
-select {
+select,
+label,
+button {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
     display: block;
-    margin: 10px auto;
+    margin: 12px auto;
     border: none;
+    padding: 5px;
+    border-radius: 6px;
+}
+
+.generate_button {
+    background-color: white;
+    border: 1px solid green;
+    border-radius: 6px;
+    margin: 0px auto;
+    width: fit-content;
 }
 
 .about_button {
-    margin: 10px auto;
+
+    border: 1px solid dimgrey;
+    border-radius: 6px;
+    margin: 12px auto;
+    width: fit-content;
+}
+
+.email_output {
+    text-align: center;
+    font-size: 25px;
+    margin: 40px;
+
+.text_center {
+    text-align: center;
 }
