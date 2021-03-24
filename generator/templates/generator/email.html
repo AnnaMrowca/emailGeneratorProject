@@ -3,11 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <title>email outcome</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'styles.css' %}">
 </head>
 <body>
-{% load static %}
-    <link rel="stylesheet" href="{% static 'styles.css' %}">
+
 <p class="email_output">{{finalEmail}}</p>
-<p class="text_center"><a href="{% url 'home' %}">"Home"</a></p>
+<div class="center-link">
+<a href="{% url 'home' %}">Home</a>
+</div>
 </body>
-</ht ml>
+</html>

@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    {% load static %}
     <title>home</title>
 
-    {% load static %}
-    <link rel="stylesheet" href="{% static 'styles.css' %}">
-
 <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400&display=swap" rel="stylesheet">
 
+    <link rel="stylesheet" href="{% static 'styles.css' %}">
 </head>
 <body>
 
@@ -18,14 +17,14 @@
 
 <form action="{% url 'email' %}" method="POST">
 
-    <select required name = 'domain'>
-        <option value = ""selected disabled>E-mail Domain</option>
-            <option value = "Gmail">Gmail</option>
-            <option value = "Proton">Proton</option>
-            <option value = "Yahoo">Yahoo</option>
+    <select class="provider" required name = 'domain'>
+        <option value="" selected disabled>E-mail Domain</option>
+            <option value="Gmail">Gmail</option>
+            <option value="Proton">Proton</option>
+            <option value="Yahoo">Yahoo</option>
     </select>
 
-    <select required name = "length">
+    <select class="length" required name = "length">
         <option value = ""selected disabled>Length</option>
         <option value = "5">5 letters</option>
         <option value = "6">6 letters</option>
@@ -40,15 +39,15 @@
         <option value = "15">15 letters</option>
     </select>
 
-    <p class="numbers_button"><label for="numbers">Numbers</label></p>
-    <p class="numbers_button"><input type = "checkbox" name="numbers" id="numbers"></p>
+   <label class="numbers-button" for="numbers">Numbers</label>
+    <input class="numbers-button" type = "checkbox" name="numbers" id="numbers">
 
     {% csrf_token %}
-    <p class="generate_button"><button type = "submit">Generate e-mail</button></p>
+    <button class="generate-button" type = "submit">Generate e-mail</button>
 
 </form>
 
- <p class="about_button"><button type="About Page"><a href="{% url 'about' %}">About Page</a></button></p>
+<a class="about-button" href="{% url 'about' %}">About Page</a>
 
     </div>
 </body>

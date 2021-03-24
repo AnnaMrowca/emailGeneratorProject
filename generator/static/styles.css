@@ -4,10 +4,14 @@
     box-sizing: border-box:
 }
 
-html {
+
+
+
+body {
     background-color: hsla(14, 50%, 60%, 0.3);
     font-family: 'Montserrat', sans-serif;
 }
+
 
 .package {
     padding: 50px;
@@ -15,44 +19,60 @@ html {
     text-align: center
 }
 
-.numbers_button {
+.numbers-button {
     display: inline-block;
 
 }
 
 select,
-label,
-button {
+label {
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     display: block;
-    margin: 12px auto;
-    border: none;
-    padding: 5px;
-    border-radius: 6px;
-}
-
-.generate_button {
-    background-color: white;
-    border: 1px solid green;
-    border-radius: 6px;
     margin: 0px auto;
-    width: fit-content;
+    border: none;
+    border-radius: 6px;
 }
 
-.about_button {
+.provider {
+    margin: 10px auto;
+}
 
-    border: 1px solid dimgrey;
+.length {
+    margin-bottom: 7px;
+ }
+
+.generate-button {
+    display:block;
+    background-color: white;
+    border: 2px solid green;
     border-radius: 6px;
-    margin: 12px auto;
-    width: fit-content;
+    margin: 7px auto 14px auto;
+    padding: 3px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+
+.about-button {
+    background-color: white;
+    border: 2px solid dimgrey;
+    border-radius: 6px;
+    margin: 0px;
+    text-decoration: none;
+    padding: 3px;
+    color: black;
+    text-align:center;
 }
 
 .email_output {
     text-align: center;
     font-size: 25px;
     margin: 40px;
+}
 
-.text_center {
-    text-align: center;
+.center-link {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
 }
