@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b9deb6ef-edc3-4973-83ab-3c127603da63" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generator/static/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/generator/static/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generator/templates/generator/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/generator/templates/generator/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generator/templates/generator/email.html" beforeDir="false" afterPath="$PROJECT_DIR$/generator/templates/generator/email.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emailGenerator/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/emailGenerator/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +33,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Ania\PycharmProjects\emailGeneratorProject" />
+      <recent name="C:\Users\Ania\PycharmProjects\emailGeneratorProject\emailGenerator" />
+    </key>
   </component>
   <component name="RunManager" selected="Python.views">
     <configuration name="settings" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -99,6 +104,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="532" y="215" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1620841224470">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="532" y="215" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824/1920.-520.1920.1040@0.0.1536.824" timestamp="1620841224470" />
     <state width="1515" height="210" key="GridCell.Tab.0.bottom" timestamp="1616078349137">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
